@@ -19,13 +19,13 @@
 clear ; close all; clc
 
 %% Setup the parameters you will use for this exercise
-input_layer_size  = 32;  % 20x20 Input Images of Digits
+input_layer_size  = 32;  
 
-hidden_layer_size1 = 64;   % 25 hidden units
-hidden_layer_size2 = 33;   % 25 hidden units
+hidden_layer_size1 = 64;   
+hidden_layer_size2 = 33;   
 
-num_labels = 2;          % 10 labels, from 1 to 10   
-                          % (note that we have mapped "0" to label 10)
+num_labels = 2;         % (note that we have mapped "0" to label 2)
+                          
 
                           
                           
